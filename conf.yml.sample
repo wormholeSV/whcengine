@@ -1,0 +1,37 @@
+go_version: 1.10.0
+version: 0.0.1
+
+testnet: true
+
+private:
+  corn_spec: "*/5 * * * * ?"
+  first_block_height:
+  testnet: 1249811
+  mainnet: 540336
+db:
+  user: root
+  passwd: your-custom-password
+  host: 127.0.0.1
+  port: 3306
+  database: database-name
+  sql_log: true
+redis:
+  passwd: your-custom-password
+  host: 127.0.0.1
+  port: 6379
+  db_num: 0
+  timeout: 3000
+  max_idle_conns: 10
+  max_open_conns: 20
+  initial_open_conns: 5
+log:
+  filename: app.log
+  level: debug
+  maxage: 168
+tx:
+  mini_output: 0.00000546
+rpc:
+  user: your-rpc-username
+  passwd: your-rpc-password
+  host: your-rpc-host
+  port: your-rpc-port
