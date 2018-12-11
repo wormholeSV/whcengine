@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/copernet/whccommon/log"
-	"github.com/copernet/whcengine-go/config"
-	"github.com/copernet/whcengine-go/logic"
+	"github.com/copernet/whcengine/config"
+	"github.com/copernet/whcengine/logic"
 )
 
 func main() {
