@@ -14,7 +14,7 @@ import (
 const (
 	ConfEnv        = "WHC_CONF"
 	ConfTestEnv    = "WHC_TEST_CONF"
-	ProjectLastDir = "whcengine-go"
+	ProjectLastDir = "whcengine"
 	LockKey        = "chain_fetch_lock"
 )
 

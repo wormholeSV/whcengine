@@ -1,4 +1,4 @@
-package: github.com/copernet/whcengine-go
+package: github.com/copernet/whcengine
 import:
 - package: github.com/bcext/gcash
   version: 067de8b6c8108fb5df47ccbea453b0c6e727d5ba
