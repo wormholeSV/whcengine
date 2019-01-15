@@ -1,19 +1,20 @@
 go_version: 1.10.0
 version: 0.0.1
 
-testnet: true
+# testnet: true
 
 private:
   corn_spec: "*/5 * * * * ?"
   first_block_height:
+  ticker_seconds: 60
   testnet: 1249811
   mainnet: 540336
 db:
-  user: root
+  user: your-username
   passwd: your-custom-password
   host: 127.0.0.1
   port: 3306
-  database: database-name
+  database: wormhole
   sql_log: true
 redis:
   passwd: your-custom-password
